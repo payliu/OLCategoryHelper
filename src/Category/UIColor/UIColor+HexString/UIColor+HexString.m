@@ -1,5 +1,5 @@
 //
-// UIColor+Helper.m
+// UIColor+HexString.m
 //
 // Created by Pay on 13/3/14.
 // Copyright (c) 2013年 Octalord. The MIT License
