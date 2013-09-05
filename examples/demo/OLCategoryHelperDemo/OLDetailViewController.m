@@ -8,6 +8,9 @@
 
 #import "OLDetailViewController.h"
 
+#import <OLCategoryHelper/NSNumber+Random.h>
+#import <OLCategoryHelper/NSString+BOOL.h>
+
 @interface OLDetailViewController ()
 - (void)configureView;
 @end
@@ -64,5 +67,11 @@
     }
     return self;
 }
-							
+
+-(void)viewWillAppear:(BOOL)animated {
+
+    NSLog(@"random int, %d", [NSNumber randomInt:10]);
+    NSLog(@"random int, %@", NSStringFromBOOL([NSNumber randomBool]));
+}
+
 @end

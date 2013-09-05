@@ -1,18 +1,51 @@
 PODS:
+  - OLCategoryHelper/Category/NSData (0.0.1):
+    - OLCategoryHelper/NSData+AES
+  - OLCategoryHelper/Category/NSDate (0.0.1):
+    - OLCategoryHelper/NSDate+Translator
   - OLCategoryHelper/Category/NSNumber (0.0.1):
     - OLCategoryHelper/NSNumber+Date
     - OLCategoryHelper/NSNumber+Random
+  - OLCategoryHelper/Category/NSString (0.0.1):
+    - OLCategoryHelper/NSString+BOOL
+  - OLCategoryHelper/Category/UIColor (0.0.1):
+    - OLCategoryHelper/UIColor+HexString
+  - OLCategoryHelper/Category/UIDevice (0.0.1):
+    - OLCategoryHelper/UIDevice+Resolutions
+  - OLCategoryHelper/Category/UIImage (0.0.1):
+    - OLCategoryHelper/UIImage+H568
+  - OLCategoryHelper/Category/UINavigationController (0.0.1):
+    - OLCategoryHelper/UINavigationController+Pilot
+  - OLCategoryHelper/Category/UIView (0.0.1):
+    - OLCategoryHelper/UIView+ViewFrameGeometry
+  - OLCategoryHelper/NSData+AES (0.0.1)
+  - OLCategoryHelper/NSDate+Translator (0.0.1)
   - OLCategoryHelper/NSNumber+Date (0.0.1)
   - OLCategoryHelper/NSNumber+Random (0.0.1)
+  - OLCategoryHelper/NSString+BOOL (0.0.1)
+  - OLCategoryHelper/UIColor+HexString (0.0.1)
+  - OLCategoryHelper/UIDevice+Resolutions (0.0.1)
+  - OLCategoryHelper/UIImage+H568 (0.0.1):
+    - OLCategoryHelper/UIDevice+Resolutions
+  - OLCategoryHelper/UINavigationController+Pilot (0.0.1)
+  - OLCategoryHelper/UIView+ViewFrameGeometry (0.0.1)
 
 DEPENDENCIES:
+  - OLCategoryHelper/Category/NSData (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/NSDate (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
   - OLCategoryHelper/Category/NSNumber (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/NSString (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/UIColor (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/UIDevice (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/UIImage (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/UINavigationController (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+  - OLCategoryHelper/Category/UIView (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
 
 EXTERNAL SOURCES:
   OLCategoryHelper:
     :podspec: https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec
 
 SPEC CHECKSUMS:
-  OLCategoryHelper: 79bb43b493c3096a4ce7a3dcddc611981d867089
+  OLCategoryHelper: e73b58dd09e0dbe07d48c611e702d6b5ba976eb6
 
 COCOAPODS: 0.23.0
