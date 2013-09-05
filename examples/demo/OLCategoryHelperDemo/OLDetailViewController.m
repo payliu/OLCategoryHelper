@@ -10,6 +10,7 @@
 
 #import <OLCategoryHelper/NSNumber+Random.h>
 #import <OLCategoryHelper/NSString+BOOL.h>
+#import <OLCategoryHelper/UIColor+RGB.h>
 
 @interface OLDetailViewController ()
 - (void)configureView;
@@ -72,6 +73,9 @@
 
     NSLog(@"random int, %d", [NSNumber randomInt:10]);
     NSLog(@"random int, %@", NSStringFromBOOL([NSNumber randomBool]));
+
+    self.view.backgroundColor = UIColorFromRGB(255.0, 0.0f, 0.0f);
+    self.detailDescriptionLabel.backgroundColor = UIColorFromRGBA(0.0f, 255.0f, 0.0f, 0.2f);
 }
 
 @end
