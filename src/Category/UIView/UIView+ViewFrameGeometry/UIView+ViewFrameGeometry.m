@@ -1,9 +1,8 @@
-//
-// UIView+ViewFrameGeometry.h
-//
-// Created by Pay on 12/5/28.
-// Copyright (c) 2012年 Octalord. The MIT License
-//
+/*
+ Erica Sadun, http://ericasadun.com
+ iPhone Developer's Cookbook, 6.x Edition
+ BSD License, Use at your own risk
+ */
 
 #import "UIView+ViewFrameGeometry.h"
 

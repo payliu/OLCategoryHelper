@@ -9,6 +9,11 @@
 
 @interface NSNumber (Date)
 
+/**
+ *  return a NSDate value base on unix time in seconds
+ *
+ *  @return a NSDate value
+ */
 - (NSDate *) dateValue;
 
 @end

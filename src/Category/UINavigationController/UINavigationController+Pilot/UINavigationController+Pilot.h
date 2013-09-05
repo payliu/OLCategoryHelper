@@ -9,13 +9,19 @@
 
 @interface UINavigationController (Pilot)
 
-/* seek all the object is kind of aClass */
+/**
+ *  seek all the object is kind of aClass
+ */
 - (NSArray *) viewControllersForClass:(Class)aClass;
 
-/* seek the first one object is kind of aClass and return it */
+/**
+ * seek the first one object is kind of aClass and return it
+ */
 - (UIViewController *) viewControllerForClass:(Class)aClass;
 
-/* pop to the first object is kind of aClass and return poped viewControllers */
+/**
+ * pop to the first object is kind of aClass and return poped viewControllers
+ */
 - (NSArray *) popToViewControllerClass:(Class)aClass animated:(BOOL)animated;
 
 /*

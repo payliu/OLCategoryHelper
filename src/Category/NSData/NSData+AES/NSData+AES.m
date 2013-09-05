@@ -3,6 +3,7 @@
 //
 // Created by Pay on 13/1/11.
 // Copyright (c) 2013年 Octalord. The MIT License
+// http://stackoverflow.com/questions/11482470/ios-5-data-encryption-aes-256-encryptwithkey-not-found
 //
 
 #import "NSData+AES.h"
