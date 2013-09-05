@@ -1,0 +1,18 @@
+PODS:
+  - OLCategoryHelper/Category/NSNumber (0.0.1):
+    - OLCategoryHelper/NSNumber+Date
+    - OLCategoryHelper/NSNumber+Random
+  - OLCategoryHelper/NSNumber+Date (0.0.1)
+  - OLCategoryHelper/NSNumber+Random (0.0.1)
+
+DEPENDENCIES:
+  - OLCategoryHelper/Category/NSNumber (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
+
+EXTERNAL SOURCES:
+  OLCategoryHelper:
+    :podspec: https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec
+
+SPEC CHECKSUMS:
+  OLCategoryHelper: 79bb43b493c3096a4ce7a3dcddc611981d867089
+
+COCOAPODS: 0.23.0
