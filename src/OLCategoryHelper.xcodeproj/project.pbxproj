@@ -16,6 +16,7 @@
 		6F227EEC17D6DC1B0030A6C2 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EDE17D6DC1B0030A6C2 /* UIImage+H568.m */; };
 		6F227EED17D6DC1B0030A6C2 /* UINavigationController+Pilot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EE217D6DC1B0030A6C2 /* UINavigationController+Pilot.m */; };
 		6F227EEE17D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EE617D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m */; };
+		6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */; };
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
@@ -53,6 +54,8 @@
 		6F227EE217D6DC1B0030A6C2 /* UINavigationController+Pilot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Pilot.m"; sourceTree = "<group>"; };
 		6F227EE517D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
 		6F227EE617D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		6F5ADB2F17DE7B5E00C0DE9F /* NSString+InterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InterfaceOrientation.h"; sourceTree = "<group>"; };
+		6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InterfaceOrientation.m"; sourceTree = "<group>"; };
 		6F6CB4C717D82B0A005EBC83 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGB.h"; path = "UIColor+RGB/UIColor+RGB.h"; sourceTree = "<group>"; };
 		6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGB.m"; path = "UIColor+RGB/UIColor+RGB.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
@@ -262,6 +265,16 @@
 			path = "UIView+ViewFrameGeometry";
 			sourceTree = "<group>";
 		};
+		6F5ADB2E17DE7B5E00C0DE9F /* NSString+InterfaceOrientation */ = {
+			isa = PBXGroup;
+			children = (
+				6F5ADB2F17DE7B5E00C0DE9F /* NSString+InterfaceOrientation.h */,
+				6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */,
+			);
+			name = "NSString+InterfaceOrientation";
+			path = "NSString/NSString+InterfaceOrientation";
+			sourceTree = "<group>";
+		};
 		6F6CB4C617D82AE4005EBC83 /* UIColor+RGB */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +296,7 @@
 		6FF232D617D80B08000AC519 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				6F5ADB2E17DE7B5E00C0DE9F /* NSString+InterfaceOrientation */,
 				6FF232D717D80B14000AC519 /* NSString+BOOL */,
 			);
 			name = NSString;
@@ -359,6 +373,7 @@
 				6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */,
 				6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */,
 				6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */,
+				6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
