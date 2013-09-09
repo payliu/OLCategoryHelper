@@ -10,12 +10,12 @@
 
 UIColor* UIColorFromRGB(float r, float g, float b)
 {
-    return [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1.0f];
+    return [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:1.0f];
 }
 
 UIColor* UIColorFromRGBA(float r, float g, float b, float a)
 {
-    return [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a];
+    return [UIColor colorWithRed:r / 255.0f green:g / 255.0f blue:b / 255.0f alpha:a];
 }
 
 @implementation UIColor (RGB)
