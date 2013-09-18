@@ -1,14 +1,14 @@
 //
-// NSDictionary+Json.m
+// NSDictionary+JSON.m
 // OLCategoryHelper
 //
 // Created by Pay Liu on 13/9/18.
 // Copyright (c) 2013年 Octalord Information Inc. The MIT License
 //
 
-#import "NSDictionary+Json.h"
+#import "NSDictionary+JSON.h"
 
-@implementation NSDictionary (Json)
+@implementation NSDictionary (JSON)
 
 - (NSString *) jsonString
 {

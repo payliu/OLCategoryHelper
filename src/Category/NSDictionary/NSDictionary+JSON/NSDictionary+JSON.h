@@ -1,5 +1,5 @@
 //
-//  NSDictionary+Json.h
+//  NSDictionary+JSON.h
 //  OLCategoryHelper
 //
 //  Created by Pay Liu on 13/9/18.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (Json)
+@interface NSDictionary (JSON)
 
 - (NSString*) jsonString;
 

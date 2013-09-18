@@ -19,7 +19,7 @@
 		6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */; };
 		6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3917DE903D00C0DE9F /* UIDevice+Enumerator.m */; };
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
-		6F7EDF8117E960950014E2BC /* NSDictionary+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EDF8017E960950014E2BC /* NSDictionary+Json.m */; };
+		6F7EDF8517EA5B840014E2BC /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7EDF8417EA5B840014E2BC /* NSDictionary+JSON.m */; };
 		6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F891F5B17E4034B00DF1045 /* NSString+Blank.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
@@ -63,8 +63,8 @@
 		6F5ADB3917DE903D00C0DE9F /* UIDevice+Enumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Enumerator.m"; sourceTree = "<group>"; };
 		6F6CB4C717D82B0A005EBC83 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGB.h"; path = "UIColor+RGB/UIColor+RGB.h"; sourceTree = "<group>"; };
 		6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGB.m"; path = "UIColor+RGB/UIColor+RGB.m"; sourceTree = "<group>"; };
-		6F7EDF7F17E960950014E2BC /* NSDictionary+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Json.h"; path = "NSDictionary/NSDictionary+JSON/NSDictionary+Json.h"; sourceTree = "<group>"; };
-		6F7EDF8017E960950014E2BC /* NSDictionary+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Json.m"; path = "NSDictionary/NSDictionary+JSON/NSDictionary+Json.m"; sourceTree = "<group>"; };
+		6F7EDF8317EA5B840014E2BC /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		6F7EDF8417EA5B840014E2BC /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		6F891F5A17E4034B00DF1045 /* NSString+Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Blank.h"; path = "NSString/NSString+Blank/NSString+Blank.h"; sourceTree = "<group>"; };
 		6F891F5B17E4034B00DF1045 /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Blank.m"; path = "NSString/NSString+Blank/NSString+Blank.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
@@ -308,18 +308,19 @@
 		6F7EDF7D17E9602C0014E2BC /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				6F7EDF7E17E960410014E2BC /* NSDictionary+JSON */,
+				6F7EDF8217EA5B840014E2BC /* NSDictionary+JSON */,
 			);
 			name = NSDictionary;
 			sourceTree = "<group>";
 		};
-		6F7EDF7E17E960410014E2BC /* NSDictionary+JSON */ = {
+		6F7EDF8217EA5B840014E2BC /* NSDictionary+JSON */ = {
 			isa = PBXGroup;
 			children = (
-				6F7EDF7F17E960950014E2BC /* NSDictionary+Json.h */,
-				6F7EDF8017E960950014E2BC /* NSDictionary+Json.m */,
+				6F7EDF8317EA5B840014E2BC /* NSDictionary+JSON.h */,
+				6F7EDF8417EA5B840014E2BC /* NSDictionary+JSON.m */,
 			);
 			name = "NSDictionary+JSON";
+			path = "NSDictionary/NSDictionary+JSON";
 			sourceTree = "<group>";
 		};
 		6F891F5917E402BC00DF1045 /* NSString+Blank */ = {
@@ -424,7 +425,7 @@
 				6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */,
 				6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */,
 				6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */,
-				6F7EDF8117E960950014E2BC /* NSDictionary+Json.m in Sources */,
+				6F7EDF8517EA5B840014E2BC /* NSDictionary+JSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
