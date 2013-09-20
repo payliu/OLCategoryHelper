@@ -16,6 +16,7 @@
 		6F227EEC17D6DC1B0030A6C2 /* UIImage+H568.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EDE17D6DC1B0030A6C2 /* UIImage+H568.m */; };
 		6F227EED17D6DC1B0030A6C2 /* UINavigationController+Pilot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EE217D6DC1B0030A6C2 /* UINavigationController+Pilot.m */; };
 		6F227EEE17D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F227EE617D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m */; };
+		6F579E2D17EBDC320087F048 /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F579E2C17EBDC320087F048 /* NSString+Contains.m */; };
 		6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */; };
 		6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3917DE903D00C0DE9F /* UIDevice+Enumerator.m */; };
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
@@ -57,6 +58,8 @@
 		6F227EE217D6DC1B0030A6C2 /* UINavigationController+Pilot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Pilot.m"; sourceTree = "<group>"; };
 		6F227EE517D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameGeometry.h"; sourceTree = "<group>"; };
 		6F227EE617D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameGeometry.m"; sourceTree = "<group>"; };
+		6F579E2B17EBDC320087F048 /* NSString+Contains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Contains.h"; path = "NSString/NSString+Contains/NSString+Contains.h"; sourceTree = "<group>"; };
+		6F579E2C17EBDC320087F048 /* NSString+Contains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Contains.m"; path = "NSString/NSString+Contains/NSString+Contains.m"; sourceTree = "<group>"; };
 		6F5ADB2F17DE7B5E00C0DE9F /* NSString+InterfaceOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InterfaceOrientation.h"; sourceTree = "<group>"; };
 		6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InterfaceOrientation.m"; sourceTree = "<group>"; };
 		6F5ADB3817DE903D00C0DE9F /* UIDevice+Enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Enumerator.h"; sourceTree = "<group>"; };
@@ -277,6 +280,15 @@
 			path = "UIView+ViewFrameGeometry";
 			sourceTree = "<group>";
 		};
+		6F33E23417EBDB4F00135BE4 /* NSString+Contains */ = {
+			isa = PBXGroup;
+			children = (
+				6F579E2B17EBDC320087F048 /* NSString+Contains.h */,
+				6F579E2C17EBDC320087F048 /* NSString+Contains.m */,
+			);
+			name = "NSString+Contains";
+			sourceTree = "<group>";
+		};
 		6F5ADB2E17DE7B5E00C0DE9F /* NSString+InterfaceOrientation */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +358,7 @@
 			children = (
 				6F891F5917E402BC00DF1045 /* NSString+Blank */,
 				6FF232D717D80B14000AC519 /* NSString+BOOL */,
+				6F33E23417EBDB4F00135BE4 /* NSString+Contains */,
 				6F5ADB2E17DE7B5E00C0DE9F /* NSString+InterfaceOrientation */,
 			);
 			name = NSString;
@@ -426,6 +439,7 @@
 				6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */,
 				6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */,
 				6F7EDF8517EA5B840014E2BC /* NSDictionary+JSON.m in Sources */,
+				6F579E2D17EBDC320087F048 /* NSString+Contains.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
