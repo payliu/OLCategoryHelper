@@ -22,11 +22,11 @@
 - (BOOL) isBlank;
 
 /**
- *    [nil isBlank]         == NO
- *    [@"" isBlank]         == NO
- *    [@" " isBlank]        == NO
- *    [@"bob" isBlank]      == YES
- *    [@"  bob   " isBlank] == YES
+ *    [nil isNotBlank]         == NO
+ *    [@"" isNotBlank]         == NO
+ *    [@" " isNotBlank]        == NO
+ *    [@"bob" isNotBlank]      == YES
+ *    [@"  bob   " isNotBlank] == YES
  *
  *  @return YES or NO
  */
@@ -44,11 +44,11 @@
 - (BOOL) isEmpty;
 
 /**
- *    [nil isEmpty]         == NO
- *    [@"" isEmpty]         == NO
- *    [@" " isEmpty]        == YES
- *    [@"bob" isEmpty]      == YES
- *    [@"  bob   " isEmpty] == YES
+ *    [nil isNotEmpty]         == NO
+ *    [@"" isNotEmpty]         == NO
+ *    [@" " isNotEmpty]        == YES
+ *    [@"bob" isNotEmpty]      == YES
+ *    [@"  bob   " isNotEmpty] == YES
  *
  *  @return YES or NO
  */

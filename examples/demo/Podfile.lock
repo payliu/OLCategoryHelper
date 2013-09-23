@@ -60,6 +60,6 @@ EXTERNAL SOURCES:
     :podspec: https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec
 
 SPEC CHECKSUMS:
-  OLCategoryHelper: 4d875bec07a628d4819845a0b252f57c7b269379
+  OLCategoryHelper: 622426d9e6f6ac5da7078bb80215ef2a8a38de91
 
 COCOAPODS: 0.24.0
