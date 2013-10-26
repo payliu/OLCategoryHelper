@@ -7,18 +7,17 @@
 //
 
 #import "NSString+Blank.h"
+#import "NSString+BOOL.h"
 
-@implementation NSString (Blank)
-
-- (BOOL) isBlank
+BOOL NSStringIsBlank(NSString *stringValue)
 {
     BOOL blank = NO;
 
-    if (self.length == 0) {
+    if (stringValue.length == 0) {
 
         blank = YES;
 
-    } else if ( [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length == 0) {
+    } else if ([stringValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]].length == 0) {
 
         blank = YES;
     }
@@ -26,16 +25,26 @@
     return blank;
 }
 
-- (BOOL) isNotBlank
+NSString* NSStringIsBlankString(NSString *stringValue)
 {
-    return ![self isBlank];
+    return NSStringFromBOOL(NSStringIsBlank(stringValue));
 }
 
-- (BOOL) isEmpty
+BOOL NSStringIsNotBlank(NSString *stringValue)
+{
+    return !NSStringIsBlank(stringValue);
+}
+
+NSString* NSStringIsNotBlankString(NSString *stringValue)
+{
+    return NSStringFromBOOL(NSStringIsNotBlank(stringValue));
+}
+
+BOOL NSStringIsEmpty(NSString *stringValue)
 {
     BOOL empty = NO;
 
-    if (self.length == 0) {
+    if (stringValue.length == 0) {
 
         empty = YES;
     }
@@ -43,9 +52,21 @@
     return empty;
 }
 
-- (BOOL) isNotEmpty
+NSString* NSStringIsEmptyString(NSString *stringValue)
 {
-    return ![self isEmpty];
+    return NSStringFromBOOL(NSStringIsEmpty(stringValue));
 }
+
+BOOL NSStringIsNotEmpty(NSString *stringValue)
+{
+    return !(NSStringIsEmpty(stringValue));
+}
+
+NSString* NSStringIsNotEmptyString(NSString *stringValue)
+{
+    return NSStringFromBOOL(NSStringIsNotEmpty(stringValue));
+}
+
+@implementation NSString (Blank)
 
 @end
