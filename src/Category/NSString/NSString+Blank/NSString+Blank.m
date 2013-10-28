@@ -69,4 +69,44 @@ NSString* NSStringIsNotEmptyString(NSString *stringValue)
 
 @implementation NSString (Blank)
 
++ (BOOL) isBlank:(NSString *)stringValue
+{
+    return NSStringIsBlank(stringValue);
+}
+
++ (NSString *) isBlankString:(NSString *)stringValue
+{
+    return NSStringIsBlankString(stringValue);
+}
+
++ (BOOL) isNotBlank:(NSString *)stringValue
+{
+    return NSStringIsNotBlank(stringValue);
+}
+
++ (NSString *) isNotBlankString:(NSString *)stringValue
+{
+    return NSStringIsNotBlankString(stringValue);
+}
+
++ (BOOL) isEmpty:(NSString *)stringValue
+{
+    return NSStringIsEmpty(stringValue);
+}
+
++ (NSString *) isEmptyString:(NSString *)stringValue
+{
+    return NSStringIsEmptyString(stringValue);
+}
+
++ (BOOL) isNotEmpty:(NSString *)stringValue
+{
+    return NSStringIsNotEmpty(stringValue);
+}
+
++ (NSString *) isNotEmptyString:(NSString *)stringValue
+{
+    return NSStringIsNotEmptyString(stringValue);
+}
+
 @end
