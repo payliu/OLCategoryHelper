@@ -3,7 +3,7 @@
 // OLCategoryHelper
 //
 // Created by Pay Liu on 13/9/14.
-// Copyright (c) 2013年 Octalord Information Inc. All rights reserved.
+// Copyright (c) 2013年 Octalord Information Inc. The MIT License
 //
 
 #import "NSString+Blank.h"

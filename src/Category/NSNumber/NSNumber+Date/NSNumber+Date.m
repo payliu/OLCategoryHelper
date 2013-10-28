@@ -2,7 +2,7 @@
 // NSNumber+Helper.m
 //
 // Created by Pay on 13/3/19.
-// Copyright (c) 2013年 Octalord. The MIT License
+// Copyright (c) 2013年 Octalord Information Inc. The MIT License
 //
 
 #import "NSNumber+Date.h"

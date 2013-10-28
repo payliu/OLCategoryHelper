@@ -19,6 +19,7 @@
 		6F579E2D17EBDC320087F048 /* NSString+Contains.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F579E2C17EBDC320087F048 /* NSString+Contains.m */; };
 		6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */; };
 		6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5ADB3917DE903D00C0DE9F /* UIDevice+Enumerator.m */; };
+		6F5F6AA0181E49D90022D641 /* UINavigationController+OrientationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5F6A9F181E49D90022D641 /* UINavigationController+OrientationSettings.m */; };
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
 		6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F891F5B17E4034B00DF1045 /* NSString+Blank.m */; };
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
@@ -64,6 +65,8 @@
 		6F5ADB3017DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InterfaceOrientation.m"; sourceTree = "<group>"; };
 		6F5ADB3817DE903D00C0DE9F /* UIDevice+Enumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Enumerator.h"; sourceTree = "<group>"; };
 		6F5ADB3917DE903D00C0DE9F /* UIDevice+Enumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Enumerator.m"; sourceTree = "<group>"; };
+		6F5F6A9E181E49D90022D641 /* UINavigationController+OrientationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+OrientationSettings.h"; sourceTree = "<group>"; };
+		6F5F6A9F181E49D90022D641 /* UINavigationController+OrientationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+OrientationSettings.m"; sourceTree = "<group>"; };
 		6F6CB4C717D82B0A005EBC83 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGB.h"; path = "UIColor+RGB/UIColor+RGB.h"; sourceTree = "<group>"; };
 		6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGB.m"; path = "UIColor+RGB/UIColor+RGB.m"; sourceTree = "<group>"; };
 		6F891F5A17E4034B00DF1045 /* NSString+Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Blank.h"; path = "NSString/NSString+Blank/NSString+Blank.h"; sourceTree = "<group>"; };
@@ -248,6 +251,7 @@
 		6F227EDF17D6DC1B0030A6C2 /* UINavigationController */ = {
 			isa = PBXGroup;
 			children = (
+				6F5F6A9D181E49D90022D641 /* UINavigationController+OrientationSettings */,
 				6F227EE017D6DC1B0030A6C2 /* UINavigationController+Pilot */,
 			);
 			path = UINavigationController;
@@ -306,6 +310,16 @@
 			);
 			path = "UIDevice+Enumerator";
 			sourceTree = "<group>";
+		};
+		6F5F6A9D181E49D90022D641 /* UINavigationController+OrientationSettings */ = {
+			isa = PBXGroup;
+			children = (
+				6F5F6A9E181E49D90022D641 /* UINavigationController+OrientationSettings.h */,
+				6F5F6A9F181E49D90022D641 /* UINavigationController+OrientationSettings.m */,
+			);
+			name = "UINavigationController+OrientationSettings";
+			path = "Category/UINavigationController/UINavigationController+OrientationSettings";
+			sourceTree = SOURCE_ROOT;
 		};
 		6F6CB4C617D82AE4005EBC83 /* UIColor+RGB */ = {
 			isa = PBXGroup;
@@ -429,6 +443,7 @@
 				6F227EEB17D6DC1B0030A6C2 /* UIDevice+Resolutions.m in Sources */,
 				6F227EEC17D6DC1B0030A6C2 /* UIImage+H568.m in Sources */,
 				6F227EED17D6DC1B0030A6C2 /* UINavigationController+Pilot.m in Sources */,
+				6F5F6AA0181E49D90022D641 /* UINavigationController+OrientationSettings.m in Sources */,
 				6F227EEE17D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m in Sources */,
 				6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */,
 				6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */,
