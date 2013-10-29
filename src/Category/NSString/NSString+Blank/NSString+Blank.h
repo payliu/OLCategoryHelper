@@ -8,6 +8,38 @@
 
 #import <Foundation/Foundation.h>
 
+#pragma mark - a marcos for @"", nil, NSNull
+
+// http://koolistov.net/blog/2012/02/26/nil-null-empty-macros/
+/**
+ *  get nil when foo is NSNull, otherwise get foo self.
+ *
+ *  @param foo an object
+ *
+ *  @return nil or foo
+ */
+#define NILIFNULL(foo) ((foo == [NSNull null]) ? nil : foo)
+
+/**
+ *  get NSNull instance when foo is nil, otherwise get foo self.
+ *
+ *  @param foo an object
+ *
+ *  @return NSNull instance or foo
+ */
+#define NULLIFNIL(foo) ((foo == nil) ? [NSNull null] : foo)
+
+/**
+ *  get @"" when foo is nil, otherwise get foo self.
+ *
+ *  @param foo an object
+ *
+ *  @return @"" or foo
+ */
+#define EMPTYIFNIL(foo) ((foo == nil) ? @"" : foo)
+
+#pragma mark - c function
+
 /**
  *    NSStringIsBlank(nil)          == YES
  *    NSStringIsBlank(@"")          == YES
@@ -112,7 +144,11 @@ FOUNDATION_EXPORT BOOL NSStringIsNotEmpty(NSString *stringValue);
  */
 FOUNDATION_EXPORT NSString* NSStringIsNotEmptyString(NSString *stringValue);
 
+#pragma mark - NSString + Blank
+
 @interface NSString (Blank)
+
+#pragma mark - static method
 
 /**
  *    [NSString isBlank:nil]          == YES

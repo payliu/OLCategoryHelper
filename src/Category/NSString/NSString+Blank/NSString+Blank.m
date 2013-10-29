@@ -9,6 +9,8 @@
 #import "NSString+Blank.h"
 #import "NSString+BOOL.h"
 
+#pragma mark - c function
+
 BOOL NSStringIsBlank(NSString *stringValue)
 {
     BOOL blank = NO;
@@ -67,7 +69,11 @@ NSString* NSStringIsNotEmptyString(NSString *stringValue)
     return NSStringFromBOOL(NSStringIsNotEmpty(stringValue));
 }
 
+#pragma mark - NSString + Blank
+
 @implementation NSString (Blank)
+
+#pragma mark - static method
 
 + (BOOL) isBlank:(NSString *)stringValue
 {
