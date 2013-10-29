@@ -69,6 +69,7 @@
 		6F5F6A9F181E49D90022D641 /* UINavigationController+OrientationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+OrientationSettings.m"; sourceTree = "<group>"; };
 		6F6CB4C717D82B0A005EBC83 /* UIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RGB.h"; path = "UIColor+RGB/UIColor+RGB.h"; sourceTree = "<group>"; };
 		6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RGB.m"; path = "UIColor+RGB/UIColor+RGB.m"; sourceTree = "<group>"; };
+		6F8397F6182079430084820F /* Math+Degrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Math+Degrees.h"; path = "Math/Math+Degrees/Math+Degrees.h"; sourceTree = "<group>"; };
 		6F891F5A17E4034B00DF1045 /* NSString+Blank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Blank.h"; path = "NSString/NSString+Blank/NSString+Blank.h"; sourceTree = "<group>"; };
 		6F891F5B17E4034B00DF1045 /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Blank.m"; path = "NSString/NSString+Blank/NSString+Blank.m"; sourceTree = "<group>"; };
 		6F93891117EFC47800B6EFDA /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 		6F227EC617D6DC1B0030A6C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				6F8397F4182078BA0084820F /* Math */,
 				6F227EC717D6DC1B0030A6C2 /* NSData */,
 				6F227ECB17D6DC1B0030A6C2 /* NSDate */,
 				6F93890F17EFC47800B6EFDA /* NSDictionary */,
@@ -328,6 +330,22 @@
 				6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */,
 			);
 			name = "UIColor+RGB";
+			sourceTree = "<group>";
+		};
+		6F8397F4182078BA0084820F /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				6F8397F5182078CA0084820F /* Math+Degrees */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		6F8397F5182078CA0084820F /* Math+Degrees */ = {
+			isa = PBXGroup;
+			children = (
+				6F8397F6182079430084820F /* Math+Degrees.h */,
+			);
+			name = "Math+Degrees";
 			sourceTree = "<group>";
 		};
 		6F891F5917E402BC00DF1045 /* NSString+Blank */ = {
