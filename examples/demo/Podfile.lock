@@ -1,47 +1,50 @@
 PODS:
-  - OLCategoryHelper/Category/NSData (0.0.2):
+  - OLCategoryHelper/Category/NSData (0.0.3):
     - OLCategoryHelper/NSData+AES
-  - OLCategoryHelper/Category/NSDate (0.0.2):
+  - OLCategoryHelper/Category/NSDate (0.0.3):
     - OLCategoryHelper/NSDate+Translator
-  - OLCategoryHelper/Category/NSDictionary (0.0.2):
+  - OLCategoryHelper/Category/NSDictionary (0.0.3):
     - OLCategoryHelper/NSDictionary+JSON
-  - OLCategoryHelper/Category/NSNumber (0.0.2):
+  - OLCategoryHelper/Category/NSNumber (0.0.3):
     - OLCategoryHelper/NSNumber+Date
     - OLCategoryHelper/NSNumber+Random
-  - OLCategoryHelper/Category/NSString (0.0.2):
+  - OLCategoryHelper/Category/NSString (0.0.3):
     - OLCategoryHelper/NSString+Blank
     - OLCategoryHelper/NSString+BOOL
     - OLCategoryHelper/NSString+Contains
     - OLCategoryHelper/NSString+InterfaceOrientation
-  - OLCategoryHelper/Category/UIColor (0.0.2):
+  - OLCategoryHelper/Category/UIColor (0.0.3):
     - OLCategoryHelper/UIColor+HexString
     - OLCategoryHelper/UIColor+RGB
-  - OLCategoryHelper/Category/UIDevice (0.0.2):
+  - OLCategoryHelper/Category/UIDevice (0.0.3):
     - OLCategoryHelper/UIDevice+Enumerator
     - OLCategoryHelper/UIDevice+Resolutions
-  - OLCategoryHelper/Category/UIImage (0.0.2):
+  - OLCategoryHelper/Category/UIImage (0.0.3):
     - OLCategoryHelper/UIImage+H568
-  - OLCategoryHelper/Category/UINavigationController (0.0.2):
+  - OLCategoryHelper/Category/UINavigationController (0.0.3):
+    - OLCategoryHelper/UINavigationController+OrientationSettings
     - OLCategoryHelper/UINavigationController+Pilot
-  - OLCategoryHelper/Category/UIView (0.0.2):
+  - OLCategoryHelper/Category/UIView (0.0.3):
     - OLCategoryHelper/UIView+ViewFrameGeometry
-  - OLCategoryHelper/NSData+AES (0.0.2)
-  - OLCategoryHelper/NSDate+Translator (0.0.2)
-  - OLCategoryHelper/NSDictionary+JSON (0.0.2)
-  - OLCategoryHelper/NSNumber+Date (0.0.2)
-  - OLCategoryHelper/NSNumber+Random (0.0.2)
-  - OLCategoryHelper/NSString+Blank (0.0.2)
-  - OLCategoryHelper/NSString+BOOL (0.0.2)
-  - OLCategoryHelper/NSString+Contains (0.0.2)
-  - OLCategoryHelper/NSString+InterfaceOrientation (0.0.2)
-  - OLCategoryHelper/UIColor+HexString (0.0.2)
-  - OLCategoryHelper/UIColor+RGB (0.0.2)
-  - OLCategoryHelper/UIDevice+Enumerator (0.0.2)
-  - OLCategoryHelper/UIDevice+Resolutions (0.0.2)
-  - OLCategoryHelper/UIImage+H568 (0.0.2):
+  - OLCategoryHelper/NSData+AES (0.0.3)
+  - OLCategoryHelper/NSDate+Translator (0.0.3)
+  - OLCategoryHelper/NSDictionary+JSON (0.0.3)
+  - OLCategoryHelper/NSNumber+Date (0.0.3)
+  - OLCategoryHelper/NSNumber+Random (0.0.3)
+  - OLCategoryHelper/NSString+Blank (0.0.3):
+    - OLCategoryHelper/NSString+BOOL
+  - OLCategoryHelper/NSString+BOOL (0.0.3)
+  - OLCategoryHelper/NSString+Contains (0.0.3)
+  - OLCategoryHelper/NSString+InterfaceOrientation (0.0.3)
+  - OLCategoryHelper/UIColor+HexString (0.0.3)
+  - OLCategoryHelper/UIColor+RGB (0.0.3)
+  - OLCategoryHelper/UIDevice+Enumerator (0.0.3)
+  - OLCategoryHelper/UIDevice+Resolutions (0.0.3)
+  - OLCategoryHelper/UIImage+H568 (0.0.3):
     - OLCategoryHelper/UIDevice+Resolutions
-  - OLCategoryHelper/UINavigationController+Pilot (0.0.2)
-  - OLCategoryHelper/UIView+ViewFrameGeometry (0.0.2)
+  - OLCategoryHelper/UINavigationController+OrientationSettings (0.0.3)
+  - OLCategoryHelper/UINavigationController+Pilot (0.0.3)
+  - OLCategoryHelper/UIView+ViewFrameGeometry (0.0.3)
 
 DEPENDENCIES:
   - OLCategoryHelper/Category/NSData (from `https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec`)
@@ -60,6 +63,6 @@ EXTERNAL SOURCES:
     :podspec: https://gist.github.com/payliu/6432443/raw/OLCategoryHelper.podspec
 
 SPEC CHECKSUMS:
-  OLCategoryHelper: 622426d9e6f6ac5da7078bb80215ef2a8a38de91
+  OLCategoryHelper: 0799a91b94acf8b7c1880d24476bd90003a02f2a
 
-COCOAPODS: 0.24.0
+COCOAPODS: 0.37.1
