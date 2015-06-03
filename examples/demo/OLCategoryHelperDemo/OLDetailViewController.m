@@ -101,7 +101,7 @@
 
     NSString *len_0 = @"";
 
-    NSLog(@"len_0: '%@', length: %d", len_0, len_0.length);
+    NSLog(@"len_0: '%@', length: %lu", len_0, len_0.length);
 
     if ([len_0 isBlank] && [len_0 isEmpty]) {
 
@@ -110,7 +110,7 @@
 
     NSString *spaces = @"    ";
 
-    NSLog(@"spaces: '%@', length: %d", spaces, spaces.length);
+    NSLog(@"spaces: '%@', length: %lu", spaces, spaces.length);
 
     if ([spaces isBlank] && [spaces isNotEmpty]) {
 
