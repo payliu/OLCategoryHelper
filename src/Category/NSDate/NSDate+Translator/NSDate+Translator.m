@@ -92,7 +92,7 @@
             break;
 
         default:
-            text = [NSString stringWithFormat:@"%lu days ago", daysAgo];
+            text = [NSString stringWithFormat:@"%lu days ago", (unsigned long)daysAgo];
     }
 
     return text;
