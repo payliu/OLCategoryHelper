@@ -25,6 +25,7 @@
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
+		6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +79,8 @@
 		6FF232D417D80648000AC519 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Random.m"; path = "NSNumber+Random/NSNumber+Random.m"; sourceTree = "<group>"; };
 		6FF232D817D80B63000AC519 /* NSString+BOOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BOOL.h"; path = "NSString/NSString+BOOL/NSString+BOOL.h"; sourceTree = "<group>"; };
 		6FF232D917D80B63000AC519 /* NSString+BOOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BOOL.m"; path = "NSString/NSString+BOOL/NSString+BOOL.m"; sourceTree = "<group>"; };
+		6FFA37BA1B2A7B870008BFE4 /* NSString+Append.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Append.h"; path = "NSString/NSString+Append/NSString+Append.h"; sourceTree = "<group>"; };
+		6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Append.m"; path = "NSString/NSString+Append/NSString+Append.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +389,7 @@
 		6FF232D617D80B08000AC519 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				6FFA37B61B2A7ABD0008BFE4 /* NSString+Append */,
 				6F891F5917E402BC00DF1045 /* NSString+Blank */,
 				6FF232D717D80B14000AC519 /* NSString+BOOL */,
 				6F33E23417EBDB4F00135BE4 /* NSString+Contains */,
@@ -401,6 +405,15 @@
 				6FF232D917D80B63000AC519 /* NSString+BOOL.m */,
 			);
 			name = "NSString+BOOL";
+			sourceTree = "<group>";
+		};
+		6FFA37B61B2A7ABD0008BFE4 /* NSString+Append */ = {
+			isa = PBXGroup;
+			children = (
+				6FFA37BA1B2A7B870008BFE4 /* NSString+Append.h */,
+				6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */,
+			);
+			name = "NSString+Append";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +484,7 @@
 				6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */,
 				6F579E2D17EBDC320087F048 /* NSString+Contains.m in Sources */,
 				6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */,
+				6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

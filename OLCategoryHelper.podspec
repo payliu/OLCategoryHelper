@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'OLCategoryHelper'
-  s.version  = '0.0.4'
+  s.version  = '0.0.5'
   s.license  = 'MIT License'
   s.summary  = 'A Category Library of Objective-C'
   s.description  = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author   = { 'Pay Liu'           => 'payliu@gmail.com',
                  'Josh'              => 'josh@octalord.com' }
 
-  s.source   = { :git => 'https://github.com/payliu/OLCategoryHelper.git', :tag => '0.0.4' }
+  s.source   = { :git => 'https://github.com/payliu/OLCategoryHelper.git', :tag => '0.0.5' }
   #s.source   = { :git => 'https://github.com/payliu/OLCategoryHelper.git', :commit => '8564bf5' }
 
   s.platform = :ios, '8.0'
@@ -51,6 +51,7 @@ Pod::Spec.new do |s|
       nsstring.dependency 'OLCategoryHelper/NSString+BOOL'
       nsstring.dependency 'OLCategoryHelper/NSString+Contains'
       nsstring.dependency 'OLCategoryHelper/NSString+InterfaceOrientation'
+      nsstring.dependency 'OLCategoryHelper/NSString+Append'
     end
 
     category.subspec 'UIColor' do |uicolor|
@@ -124,6 +125,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'NSString+InterfaceOrientation' do |nsstring_interfaceorientation|
     nsstring_interfaceorientation.source_files = 'src/Category/NSString/NSString+InterfaceOrientation'
+  end
+
+  s.subspec 'NSString+Append' do |nsstring_append|
+    nsstring_append.source_files = 'src/Category/NSString/NSString+Append'
   end
 
   # UIColor
