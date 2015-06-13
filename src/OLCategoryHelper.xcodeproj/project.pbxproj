@@ -81,6 +81,7 @@
 		6FF232D917D80B63000AC519 /* NSString+BOOL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BOOL.m"; path = "NSString/NSString+BOOL/NSString+BOOL.m"; sourceTree = "<group>"; };
 		6FFA37BA1B2A7B870008BFE4 /* NSString+Append.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Append.h"; path = "NSString/NSString+Append/NSString+Append.h"; sourceTree = "<group>"; };
 		6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Append.m"; path = "NSString/NSString+Append/NSString+Append.m"; sourceTree = "<group>"; };
+		6FFA37C91B2C4EF00008BFE4 /* OLCategoryHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLCategoryHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +145,7 @@
 				6F227EDB17D6DC1B0030A6C2 /* UIImage */,
 				6F227EDF17D6DC1B0030A6C2 /* UINavigationController */,
 				6F227EE317D6DC1B0030A6C2 /* UIView */,
+				6FFA37C91B2C4EF00008BFE4 /* OLCategoryHelper.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
