@@ -77,6 +77,10 @@ Pod::Spec.new do |s|
       uiview.dependency 'OLCategoryHelper/UIView+ViewFrameGeometry'
     end
 
+    category.subspec 'UISegmentedControl' do |uisegmentedcontrol|
+      uisegmentedcontrol.dependency 'OLCategoryHelper/UISegmentedControl+Configure'
+    end
+
   end
 
 
@@ -165,6 +169,11 @@ Pod::Spec.new do |s|
   # UIView
   s.subspec 'UIView+ViewFrameGeometry' do |uiview_viewframegeometry|
     uiview_viewframegeometry.source_files = 'src/Category/UIView/UIView+ViewFrameGeometry'
+  end
+
+  #UISegmentedControl
+  s.subspec 'UISegmentedControl+Configure' do |uisegmentedcontrol_configure|
+    uisegmentedcontrol_configure.source_files = 'src/Category/UISegmentedControl/UISegmentedControl+Configure'
   end
 
 end

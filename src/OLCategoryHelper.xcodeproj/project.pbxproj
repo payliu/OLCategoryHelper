@@ -23,6 +23,7 @@
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
 		6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F891F5B17E4034B00DF1045 /* NSString+Blank.m */; };
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
+		6FC183561B32577D005922C2 /* UISegmentedControl+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
 		6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */; };
@@ -75,6 +76,8 @@
 		6F891F5B17E4034B00DF1045 /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Blank.m"; path = "NSString/NSString+Blank/NSString+Blank.m"; sourceTree = "<group>"; };
 		6F93891117EFC47800B6EFDA /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		6FC183541B32577D005922C2 /* UISegmentedControl+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Configure.h"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.h"; sourceTree = "<group>"; };
+		6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Configure.m"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
 		6FF232D417D80648000AC519 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Random.m"; path = "NSNumber+Random/NSNumber+Random.m"; sourceTree = "<group>"; };
 		6FF232D817D80B63000AC519 /* NSString+BOOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BOOL.h"; path = "NSString/NSString+BOOL/NSString+BOOL.h"; sourceTree = "<group>"; };
@@ -134,6 +137,7 @@
 		6F227EC617D6DC1B0030A6C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				6FC183531B3256C6005922C2 /* UISegmentedControl */,
 				6F8397F4182078BA0084820F /* Math */,
 				6F227EC717D6DC1B0030A6C2 /* NSData */,
 				6F227ECB17D6DC1B0030A6C2 /* NSDate */,
@@ -379,6 +383,23 @@
 			path = "NSDictionary+JSON";
 			sourceTree = "<group>";
 		};
+		6FC183531B3256C6005922C2 /* UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				6FC183571B325C0C005922C2 /* UISegmentedControl+Configure */,
+			);
+			name = UISegmentedControl;
+			sourceTree = "<group>";
+		};
+		6FC183571B325C0C005922C2 /* UISegmentedControl+Configure */ = {
+			isa = PBXGroup;
+			children = (
+				6FC183541B32577D005922C2 /* UISegmentedControl+Configure.h */,
+				6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */,
+			);
+			name = "UISegmentedControl+Configure";
+			sourceTree = "<group>";
+		};
 		6FF232CF17D805D9000AC519 /* NSNumber+Random */ = {
 			isa = PBXGroup;
 			children = (
@@ -480,6 +501,7 @@
 				6F227EEE17D6DC1B0030A6C2 /* UIView+ViewFrameGeometry.m in Sources */,
 				6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */,
 				6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */,
+				6FC183561B32577D005922C2 /* UISegmentedControl+Configure.m in Sources */,
 				6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */,
 				6F5ADB3117DE7B5E00C0DE9F /* NSString+InterfaceOrientation.m in Sources */,
 				6F5ADB3A17DE903D00C0DE9F /* UIDevice+Enumerator.m in Sources */,

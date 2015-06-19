@@ -108,7 +108,6 @@
 
 - (NSTimeInterval) unixTime
 {
-
     return [self timeIntervalSince1970];     // if nil, return 0.0
 }
 

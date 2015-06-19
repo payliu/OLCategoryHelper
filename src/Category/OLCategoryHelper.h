@@ -39,4 +39,6 @@
 
 #import "UIView+ViewFrameGeometry.h"
 
+#import "UISegmentedControl+Configure.h"
+
 #endif
