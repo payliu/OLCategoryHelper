@@ -9,6 +9,8 @@
 #ifndef OLCategoryHelper_OLCategoryHelper_h
 #define OLCategoryHelper_OLCategoryHelper_h
 
+#import "DefinitionHelper.h"
+
 #import "Math+Degrees.h"
 
 #import "NSData+AES.h"
