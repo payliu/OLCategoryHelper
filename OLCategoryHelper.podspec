@@ -25,6 +25,10 @@ Pod::Spec.new do |s|
     category.source_files = 'src/Category'
 
     # sub group of Category group.
+    category.subspec 'Definition' do |definition|
+      definition.dependency 'OLCategoryHelper/Definition'
+    end
+
     category.subspec 'Math' do |math|
       math.dependency 'OLCategoryHelper/Math+Degrees'
     end
@@ -85,6 +89,11 @@ Pod::Spec.new do |s|
 
 
   # individual category
+  # Definition
+  s.subspec 'Definition' do |definition|
+    definition.source_files = 'src/Category/Definition'
+  end
+
   # Math
   s.subspec 'Math+Degrees' do |math_degrees|
     math_degrees.source_files = 'src/Category/Math/Math+Degrees'

@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F06CC7A1B3A8D8400C41ABA /* DefinitionHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DefinitionHelper.h; path = Definition/DefinitionHelper.h; sourceTree = "<group>"; };
 		6F227E8C17D6DA9A0030A6C2 /* libOLCategoryHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOLCategoryHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F227E8F17D6DA9A0030A6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6F227E9317D6DA9A0030A6C2 /* OLCategoryHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OLCategoryHelper-Prefix.pch"; sourceTree = "<group>"; };
@@ -99,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F06CC771B3A8B1C00C41ABA /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				6F06CC7A1B3A8D8400C41ABA /* DefinitionHelper.h */,
+			);
+			name = Definition;
+			sourceTree = "<group>";
+		};
 		6F227E8317D6DA9A0030A6C2 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +146,7 @@
 		6F227EC617D6DC1B0030A6C2 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				6F06CC771B3A8B1C00C41ABA /* Definition */,
 				6FC183531B3256C6005922C2 /* UISegmentedControl */,
 				6F8397F4182078BA0084820F /* Math */,
 				6F227EC717D6DC1B0030A6C2 /* NSData */,
