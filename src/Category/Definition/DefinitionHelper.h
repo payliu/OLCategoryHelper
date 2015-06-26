@@ -10,6 +10,6 @@
 #define OLCategoryHelper_DefinitionHelper_h
 
 #define DEPRECATED        __attribute__((deprecated))
-#define DEPRECATED_MSG(msg) __attribute((deprecated((msg))))
+#define DEPRECATED(msg) __attribute((deprecated((msg))))
 
 #endif
