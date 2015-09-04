@@ -43,4 +43,7 @@
 
 #import "UISegmentedControl+Configure.h"
 
+#import "UISplitViewController+ToggleMasterView.h"
+
 #endif
+

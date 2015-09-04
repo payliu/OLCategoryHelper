@@ -85,6 +85,10 @@ Pod::Spec.new do |s|
       uisegmentedcontrol.dependency 'OLCategoryHelper/UISegmentedControl+Configure'
     end
 
+    category.subspec 'UISplitViewController' do |uisplitviewcontroller|
+      uisplitviewcontroller.dependency 'OLCategoryHelper/UISplitViewController+ToggleMasterView'
+    end
+
   end
 
 
@@ -183,6 +187,11 @@ Pod::Spec.new do |s|
   #UISegmentedControl
   s.subspec 'UISegmentedControl+Configure' do |uisegmentedcontrol_configure|
     uisegmentedcontrol_configure.source_files = 'src/Category/UISegmentedControl/UISegmentedControl+Configure'
+  end
+
+  #UISplitViewController
+  s.subspec 'UISplitViewController+ToggleMasterView' do |uisplitviewcontroller_togglemasterview|
+    uisplitviewcontroller_togglemasterview.source_files = 'src/Category/UISplitViewController/UISplitViewController+ToggleMasterView'
   end
 
 end

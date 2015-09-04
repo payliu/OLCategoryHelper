@@ -23,6 +23,7 @@
 		6F6CB4C917D82B0A005EBC83 /* UIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CB4C817D82B0A005EBC83 /* UIColor+RGB.m */; };
 		6F891F5C17E4034B00DF1045 /* NSString+Blank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F891F5B17E4034B00DF1045 /* NSString+Blank.m */; };
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
+		6FB31A951B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */; };
 		6FC183561B32577D005922C2 /* UISegmentedControl+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
@@ -77,6 +78,8 @@
 		6F891F5B17E4034B00DF1045 /* NSString+Blank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Blank.m"; path = "NSString/NSString+Blank/NSString+Blank.m"; sourceTree = "<group>"; };
 		6F93891117EFC47800B6EFDA /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		6FB31A931B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISplitViewController+ToggleMasterView.h"; path = "UISplitViewController/UISplitViewController+ToggleMasterView/UISplitViewController+ToggleMasterView.h"; sourceTree = "<group>"; };
+		6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+ToggleMasterView.m"; path = "UISplitViewController/UISplitViewController+ToggleMasterView/UISplitViewController+ToggleMasterView.m"; sourceTree = "<group>"; };
 		6FC183541B32577D005922C2 /* UISegmentedControl+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Configure.h"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.h"; sourceTree = "<group>"; };
 		6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Configure.m"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
@@ -159,6 +162,7 @@
 				6F227EDB17D6DC1B0030A6C2 /* UIImage */,
 				6F227EDF17D6DC1B0030A6C2 /* UINavigationController */,
 				6F227EE317D6DC1B0030A6C2 /* UIView */,
+				6FB31A921B994111000FCCF6 /* UISplitViewController */,
 				6FFA37C91B2C4EF00008BFE4 /* OLCategoryHelper.h */,
 			);
 			path = Category;
@@ -393,6 +397,23 @@
 			path = "NSDictionary+JSON";
 			sourceTree = "<group>";
 		};
+		6FB31A921B994111000FCCF6 /* UISplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6FB31A961B99429B000FCCF6 /* UISplitViewController+ToggleMasterView */,
+			);
+			name = UISplitViewController;
+			sourceTree = "<group>";
+		};
+		6FB31A961B99429B000FCCF6 /* UISplitViewController+ToggleMasterView */ = {
+			isa = PBXGroup;
+			children = (
+				6FB31A931B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.h */,
+				6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */,
+			);
+			name = "UISplitViewController+ToggleMasterView";
+			sourceTree = "<group>";
+		};
 		6FC183531B3256C6005922C2 /* UISegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
@@ -504,6 +525,7 @@
 				6F227EE817D6DC1B0030A6C2 /* NSDate+Translator.m in Sources */,
 				6F227EE917D6DC1B0030A6C2 /* NSNumber+Date.m in Sources */,
 				6F227EEA17D6DC1B0030A6C2 /* UIColor+HexString.m in Sources */,
+				6FB31A951B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m in Sources */,
 				6F227EEB17D6DC1B0030A6C2 /* UIDevice+Resolutions.m in Sources */,
 				6F227EEC17D6DC1B0030A6C2 /* UIImage+H568.m in Sources */,
 				6F227EED17D6DC1B0030A6C2 /* UINavigationController+Pilot.m in Sources */,
