@@ -25,6 +25,7 @@
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
 		6FB31A951B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */; };
 		6FC183561B32577D005922C2 /* UISegmentedControl+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */; };
+		6FDD24F81BC25A38008A4E10 /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */; settings = {ASSET_TAGS = (); }; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
 		6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */; };
@@ -82,6 +83,8 @@
 		6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISplitViewController+ToggleMasterView.m"; path = "UISplitViewController/UISplitViewController+ToggleMasterView/UISplitViewController+ToggleMasterView.m"; sourceTree = "<group>"; };
 		6FC183541B32577D005922C2 /* UISegmentedControl+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Configure.h"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.h"; sourceTree = "<group>"; };
 		6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Configure.m"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.m"; sourceTree = "<group>"; };
+		6FDD24F61BC25A38008A4E10 /* NSArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSON.h"; path = "NSArray/NSArray+JSON/NSArray+JSON.h"; sourceTree = "<group>"; };
+		6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSON.m"; path = "NSArray/NSArray+JSON/NSArray+JSON.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
 		6FF232D417D80648000AC519 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Random.m"; path = "NSNumber+Random/NSNumber+Random.m"; sourceTree = "<group>"; };
 		6FF232D817D80B63000AC519 /* NSString+BOOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BOOL.h"; path = "NSString/NSString+BOOL/NSString+BOOL.h"; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 				6F06CC771B3A8B1C00C41ABA /* Definition */,
 				6FC183531B3256C6005922C2 /* UISegmentedControl */,
 				6F8397F4182078BA0084820F /* Math */,
+				6FDD24F51BC258E5008A4E10 /* NSArray */,
 				6F227EC717D6DC1B0030A6C2 /* NSData */,
 				6F227ECB17D6DC1B0030A6C2 /* NSDate */,
 				6F93890F17EFC47800B6EFDA /* NSDictionary */,
@@ -431,6 +435,23 @@
 			name = "UISegmentedControl+Configure";
 			sourceTree = "<group>";
 		};
+		6FDD24F51BC258E5008A4E10 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				6FDD24F91BC25A41008A4E10 /* NSArray+JSON */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		6FDD24F91BC25A41008A4E10 /* NSArray+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6FDD24F61BC25A38008A4E10 /* NSArray+JSON.h */,
+				6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */,
+			);
+			name = "NSArray+JSON";
+			sourceTree = "<group>";
+		};
 		6FF232CF17D805D9000AC519 /* NSNumber+Random */ = {
 			isa = PBXGroup;
 			children = (
@@ -525,6 +546,7 @@
 				6F227EE817D6DC1B0030A6C2 /* NSDate+Translator.m in Sources */,
 				6F227EE917D6DC1B0030A6C2 /* NSNumber+Date.m in Sources */,
 				6F227EEA17D6DC1B0030A6C2 /* UIColor+HexString.m in Sources */,
+				6FDD24F81BC25A38008A4E10 /* NSArray+JSON.m in Sources */,
 				6FB31A951B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m in Sources */,
 				6F227EEB17D6DC1B0030A6C2 /* UIDevice+Resolutions.m in Sources */,
 				6F227EEC17D6DC1B0030A6C2 /* UIImage+H568.m in Sources */,

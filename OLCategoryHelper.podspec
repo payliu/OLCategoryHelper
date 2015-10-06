@@ -33,6 +33,10 @@ Pod::Spec.new do |s|
       math.dependency 'OLCategoryHelper/Math+Degrees'
     end
 
+    category.subspec 'NSArray' do |nsarray|
+      nsarray.dependency 'OLCategoryHelper/NSArray+JSON'
+    end
+
     category.subspec 'NSData' do |nsdata|
       nsdata.dependency 'OLCategoryHelper/NSData+AES'
     end
@@ -101,6 +105,11 @@ Pod::Spec.new do |s|
   # Math
   s.subspec 'Math+Degrees' do |math_degrees|
     math_degrees.source_files = 'src/Category/Math/Math+Degrees'
+  end
+
+  # NSArray
+  s.subspec 'NSArray+JSON' do |nsarray_json|
+    nsarray_json.source_files = 'src/Category/NSArray/NSArray+JSON'
   end
 
   # NSData

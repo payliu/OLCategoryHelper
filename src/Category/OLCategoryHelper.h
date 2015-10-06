@@ -13,6 +13,8 @@
 
 #import "Math+Degrees.h"
 
+#import "NSArray+JSON.h"
+
 #import "NSData+AES.h"
 
 #import "NSDate+Translator.h"
