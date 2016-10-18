@@ -63,4 +63,23 @@
 + (NSString *) timestampFormatString;
 + (NSString *) dbFormatString;
 
+/**
+ *  set the time
+ *
+ */
+- (NSDate *) dateWithHour:(NSInteger)hour minute:(NSInteger)minute second:(NSInteger)second;
+
+/**
+ * the beign in a day
+ * tracate time, ex
+ *  2016-01-23 10:10:10 => 2016-01-23 00:00:00
+ */
+- (NSDate *) dateAsStartDay;
+
+/**
+ *  last second in a day
+ *  2016-01-23 10:10:10 => 2016-01-23 23:59:59
+ */
+- (NSDate *) dateAsEndDay;
+
 @end
