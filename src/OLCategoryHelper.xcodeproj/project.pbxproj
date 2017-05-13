@@ -25,7 +25,9 @@
 		6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93891217EFC47800B6EFDA /* NSDictionary+JSON.m */; };
 		6FB31A951B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB31A941B99415C000FCCF6 /* UISplitViewController+ToggleMasterView.m */; };
 		6FC183561B32577D005922C2 /* UISegmentedControl+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */; };
-		6FDD24F81BC25A38008A4E10 /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */; settings = {ASSET_TAGS = (); }; };
+		6FDD24F81BC25A38008A4E10 /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */; };
+		6FDEAC6D1EC15FC10006515F /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDEAC6C1EC15FC10006515F /* NSData+MD5.m */; };
+		6FDEAC711EC160530006515F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDEAC701EC160530006515F /* NSString+MD5.m */; };
 		6FF232D517D80648000AC519 /* NSNumber+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D417D80648000AC519 /* NSNumber+Random.m */; };
 		6FF232DA17D80B63000AC519 /* NSString+BOOL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF232D917D80B63000AC519 /* NSString+BOOL.m */; };
 		6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA37BB1B2A7B870008BFE4 /* NSString+Append.m */; };
@@ -85,6 +87,10 @@
 		6FC183551B32577D005922C2 /* UISegmentedControl+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Configure.m"; path = "UISegmentedControl/UISegmentedControl+Configure/UISegmentedControl+Configure.m"; sourceTree = "<group>"; };
 		6FDD24F61BC25A38008A4E10 /* NSArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSON.h"; path = "NSArray/NSArray+JSON/NSArray+JSON.h"; sourceTree = "<group>"; };
 		6FDD24F71BC25A38008A4E10 /* NSArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSON.m"; path = "NSArray/NSArray+JSON/NSArray+JSON.m"; sourceTree = "<group>"; };
+		6FDEAC6B1EC15FC10006515F /* NSData+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MD5.h"; path = "NSData+MD5/NSData+MD5.h"; sourceTree = "<group>"; };
+		6FDEAC6C1EC15FC10006515F /* NSData+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MD5.m"; path = "NSData+MD5/NSData+MD5.m"; sourceTree = "<group>"; };
+		6FDEAC6F1EC160530006515F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "NSString/NSString+MD5/NSString+MD5.h"; sourceTree = "<group>"; };
+		6FDEAC701EC160530006515F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "NSString/NSString+MD5/NSString+MD5.m"; sourceTree = "<group>"; };
 		6FF232D317D80648000AC519 /* NSNumber+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Random.h"; path = "NSNumber+Random/NSNumber+Random.h"; sourceTree = "<group>"; };
 		6FF232D417D80648000AC519 /* NSNumber+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Random.m"; path = "NSNumber+Random/NSNumber+Random.m"; sourceTree = "<group>"; };
 		6FF232D817D80B63000AC519 /* NSString+BOOL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BOOL.h"; path = "NSString/NSString+BOOL/NSString+BOOL.h"; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 		6F227EC717D6DC1B0030A6C2 /* NSData */ = {
 			isa = PBXGroup;
 			children = (
+				6FDEAC691EC15F250006515F /* NSData+MD5 */,
 				6F227EC817D6DC1B0030A6C2 /* NSData+AES */,
 			);
 			path = NSData;
@@ -452,6 +459,24 @@
 			name = "NSArray+JSON";
 			sourceTree = "<group>";
 		};
+		6FDEAC691EC15F250006515F /* NSData+MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				6FDEAC6B1EC15FC10006515F /* NSData+MD5.h */,
+				6FDEAC6C1EC15FC10006515F /* NSData+MD5.m */,
+			);
+			name = "NSData+MD5";
+			sourceTree = "<group>";
+		};
+		6FDEAC6E1EC160200006515F /* NSString+MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				6FDEAC6F1EC160530006515F /* NSString+MD5.h */,
+				6FDEAC701EC160530006515F /* NSString+MD5.m */,
+			);
+			name = "NSString+MD5";
+			sourceTree = "<group>";
+		};
 		6FF232CF17D805D9000AC519 /* NSNumber+Random */ = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +489,7 @@
 		6FF232D617D80B08000AC519 /* NSString */ = {
 			isa = PBXGroup;
 			children = (
+				6FDEAC6E1EC160200006515F /* NSString+MD5 */,
 				6FFA37B61B2A7ABD0008BFE4 /* NSString+Append */,
 				6F891F5917E402BC00DF1045 /* NSString+Blank */,
 				6FF232D717D80B14000AC519 /* NSString+BOOL */,
@@ -542,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FDEAC6D1EC15FC10006515F /* NSData+MD5.m in Sources */,
 				6F227EE717D6DC1B0030A6C2 /* NSData+AES.m in Sources */,
 				6F227EE817D6DC1B0030A6C2 /* NSDate+Translator.m in Sources */,
 				6F227EE917D6DC1B0030A6C2 /* NSNumber+Date.m in Sources */,
@@ -563,6 +590,7 @@
 				6F579E2D17EBDC320087F048 /* NSString+Contains.m in Sources */,
 				6F93891317EFC47800B6EFDA /* NSDictionary+JSON.m in Sources */,
 				6FFA37BC1B2A7B870008BFE4 /* NSString+Append.m in Sources */,
+				6FDEAC711EC160530006515F /* NSString+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
