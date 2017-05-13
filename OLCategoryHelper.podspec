@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
 
     category.subspec 'NSData' do |nsdata|
       nsdata.dependency 'OLCategoryHelper/NSData+AES'
+      nsdata.dependency 'OLCategoryHelper/NSData+MD5'
     end
 
     category.subspec 'NSDate' do |nsdate|
@@ -60,6 +61,7 @@ Pod::Spec.new do |s|
       nsstring.dependency 'OLCategoryHelper/NSString+Contains'
       nsstring.dependency 'OLCategoryHelper/NSString+InterfaceOrientation'
       nsstring.dependency 'OLCategoryHelper/NSString+Append'
+      nsstring.dependency 'OLCategoryHelper/NSString+MD5'
     end
 
     category.subspec 'UIColor' do |uicolor|
@@ -117,6 +119,10 @@ Pod::Spec.new do |s|
     nsdata_aes.source_files = 'src/Category/NSData/NSData+AES'
   end
 
+  s.subspec 'NSData+MD5' do |nsdata_md5|
+    nsdata_md5.source_files = 'src/Category/NSData/NSData+MD5'
+  end
+
   # NSDate
   s.subspec 'NSDate+Translator' do |nsdate_translator|
     nsdate_translator.source_files = 'src/Category/NSDate/NSDate+Translator'
@@ -155,6 +161,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'NSString+Append' do |nsstring_append|
     nsstring_append.source_files = 'src/Category/NSString/NSString+Append'
+  end
+
+  s.subspec 'NSString+MD5' do |nsstring_md5|
+    nsstring_md5.source_files = 'src/Category/NSString/NSString+MD5'
   end
 
   # UIColor
