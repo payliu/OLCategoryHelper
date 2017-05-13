@@ -16,6 +16,7 @@
 #import "NSArray+JSON.h"
 
 #import "NSData+AES.h"
+#import "NSData+MD5.h"
 
 #import "NSDate+Translator.h"
 
@@ -29,6 +30,7 @@
 #import "NSString+BOOL.h"
 #import "NSString+Contains.h"
 #import "NSString+InterfaceOrientation.h"
+#import "NSString+MD5.h"
 
 #import "UIColor+HexString.h"
 #import "UIColor+RGB.h"
